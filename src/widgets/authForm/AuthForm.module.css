@@ -1,0 +1,19 @@
+.header {
+  font-size: 32px;
+  text-align: center;
+}
+
+.formGroup {
+  padding: 23px;
+  display: grid;
+  gap: 5px;
+}
+
+.botInfo span {
+  font-weight: bolder;
+}
+
+.botInfo span:hover {
+  color: var(--color-dkGreen);
+  cursor: pointer;
+}

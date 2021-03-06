@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin: 0 32px;
+  font-size: 18px;
+}
+
+.copyrights > span {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--color-dkGreen);
+}
+
+.socialMedias {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 23px;
+  color: var(--color-lgBlack);
+}
+
+.socialMedias svg:hover {
+  color: var(--color-dkGreen);
+}

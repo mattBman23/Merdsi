@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+.imgContainer {
+  height: 50px;
+  width: 150px;
+}
+
+.imgContainer > img {
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.btnGroup {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+
+.modal_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_content {
+  background-color: white;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 32px;
+  outline: none;
+}
